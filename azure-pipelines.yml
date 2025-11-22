@@ -10,9 +10,9 @@ steps:
 
 - script: |
     echo "Checking current directory:"
-    pwd
+    cd
     echo "Listing files:"
-    ls -la
+    dir
   displayName: 'Show workspace details'
 
 - script: echo "Pipeline completed successfully!"
